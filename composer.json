@@ -1,0 +1,29 @@
+{
+    "name": "bluethinkinc/magento2-module-low-stock-notification",
+    "description": "Low Stock Notification",
+    "type": "magento2-module",
+    "minimum-stability": "dev",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": 
+    { 
+     "php": "~7.4.0||~8.1.0",
+     "magento/framework": "~100.1|~101.0|~102.0|~103.0|~104.0"       
+    },
+    "authors": [
+        {
+            "name": "Bluethinkinc"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bluethinkinc\\LowStockNotification\\": ""
+        }
+    }
+}
+
+
+ 
